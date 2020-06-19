@@ -1,0 +1,292 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+}
+
+.container {
+    width: 100%;
+    height: 100%;
+    border: 1px solid #000;
+}
+
+.container .top-tabbar {
+    width: 100%;
+    height: 5%;
+    line-height: 25px;
+    font-size: 14px;
+    padding-left: 5px;
+    color: rgb(102, 101, 101);
+    border-bottom: 1px solid rgb(189, 184, 184);
+}
+
+.container .main {
+    width: 100%;
+    height: 95%;
+    display: flex;
+    /* border: 1px solid rgb(214, 79, 25); */
+}
+
+.container .main .left {
+    width: 20%;
+    height: 100%;
+    /* float: left; */
+    /* border: 1px solid rgb(31, 185, 44); */
+    border-right: 1px solid rgb(196, 192, 192);
+}
+
+.container .main .left .icons {
+    list-style: none;
+    width: 50%;
+    height: 3%;
+    padding-top: 3%;
+    display: flex;
+    justify-content: space-between;
+    /* border: 1px solid #000; */
+}
+
+.container .main .left .icons li {
+    width: 25%;
+    height: 100%;
+    text-align: center;
+    color: rgb(119, 117, 117);
+    /* border: 1px solid #000; */
+}
+
+.container .main .left .search {
+    width: 92%;
+    height: 4%;
+    margin-left: 2%;
+    margin-top: 2%;
+    font-size: 12px;
+    padding: 3px;
+    color: rgb(168, 164, 164);
+    border: 1px solid rgb(165, 165, 165);
+    border-radius: 2px;
+    outline: none;
+}
+
+.container .main .left .el-icon-search {
+    color: gray;
+    position: absolute;
+    left: 17%;
+    top: 12%;
+}
+
+.container .main .left .menu {
+    width: 100%;
+    height: 89%;
+    padding-left: 2%;
+    padding-top: 2%;
+    box-sizing: border-box;
+    /* border: 1px solid #000; */
+}
+
+.container .main .left .menu .first {
+    list-style: none;
+    width: 100%;
+    height: 90%;
+}
+
+.container .main .left .menu .first li {
+    width: 100%;
+    height: auto;
+    margin-top: 3%;
+    /* vertical-align: middle; */
+    /* border: 1px solid #000; */
+}
+
+.container .main .left .menu .first li:hover {
+    cursor: pointer;
+}
+
+.container .main .left .menu .first .second {
+    list-style: none;
+    padding-left: 5%;
+    display: none;
+}
+
+.container .main .left .menu .first .second .third {
+    list-style: none;
+    padding-left: 7%;
+    display: none;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(62, 62, 245);
+}
+
+.container .main .right {
+    width: 80%;
+    height: 100%;
+    padding-left: 1%;
+    /* float: left; */
+    /* border: 1px solid rgb(212, 21, 21); */
+}
+
+.container .main .right .tab {
+    width: 100%;
+    height: 7%;
+    padding-left: 1%;
+    padding-top: 1%;
+    list-style: none;
+    display: flex;
+    box-sizing: border-box;
+    border-bottom: 1px solid rgb(196, 192, 192);
+}
+
+.container .main .right .tab li {
+    width: 8%;
+    height: 100%;
+    text-align: center;
+    /* border: 1px solid pink; */
+}
+
+.container .main .right .tab li:hover {
+    cursor: pointer;
+}
+
+#underline {
+    border-bottom: 1px solid #f40;
+}
+
+.container .main .right .btns {
+    width: 100%;
+    height: 5%;
+    font-size: 14px;
+    color: rgb(107, 105, 105);
+    padding-left: 1%;
+    list-style: none;
+    display: flex;
+}
+
+.container .main .right .btns li {
+    width: 60px;
+    height: 100%;
+    text-align: center;
+    padding-top: 0.5%;
+}
+
+.container .main .right .message {
+    width: 65%;
+    height: 60%;
+    /* border: 1px solid #000; */
+}
+
+.container .main .right .message img {
+    width: 100%;
+    height: 100%;
+    display: none;
+    background-size: cover;
+    /* position: absolute; */
+}
+
+.container .main .right .table {
+    width: 100%;
+    height: 100%;
+    /* position: absolute; */
+    /* border: 1px solid #f40; */
+}
+
+.container .main .right .table tr {
+    width: 100%;
+    height: 12%;
+    display: flex;
+    border-top: 1px solid rgb(207, 206, 206);
+}
+
+.container .main .right .table tr th {
+    width: 20%;
+    height: 100%;
+    /* line-height: 27px; */
+    padding-top: 1%;
+    box-sizing: border-box;
+    text-align: center;
+    background-color: rgb(219, 217, 217);
+}
+
+.container .main .right .table tr td {
+    width: 20%;
+    height: 100%;
+    font-size: 14px;
+    color: rgb(83, 83, 83);
+    padding-top: 1%;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.container .main .right .bottom {
+    width: auto;
+    height: 6%;
+    /* line-height: 30px; */
+    padding-top: 2%;
+    box-sizing: border-box;
+    /* border: 1px solid #f40; */
+    display: flex;
+    padding: 0px;
+    margin-top: 8%;
+    font-size: 15px;
+}
+
+.container .main .right .bottom select {
+    margin-left: 10px;
+}
+
+.container .main .right .bottom .last {
+    display: block;
+    line-height: 30px;
+    margin-left: 180px;
+}
+
+.container .main .right .bottom .next {
+    display: block;
+    line-height: 30px;
+    margin-left: 3px;
+}
+
+.container .main .right .bottom .list {
+    width: auto;
+    height: 30px;
+    list-style: none;
+    /* position: absolute; */
+    display: flex;
+    margin-left: 3px;
+    /* border: 1px solid pink; */
+}
+
+.container .main .right .bottom .list li {
+    width: 15px;
+    height: 30px;
+    line-height: 30px;
+    margin-left: 10px;
+}
+
+.container .main .right .bottom .list li,
+.container .main .right .bottom .last,
+.container .main .right .bottom .next:hover {
+    cursor: pointer;
+}
+
+.container .main .right .bottom input {
+    width: 40px;
+    height: 20px;
+    line-height: 30px;
+    padding-top: 3px;
+    text-align: center;
+    margin-left: 10px;
+}
+
+.container .main .right .bottom .btn {
+    height: 25px;
+    margin-left: 18px;
+}
+
+#red {
+    color: red;
+}
